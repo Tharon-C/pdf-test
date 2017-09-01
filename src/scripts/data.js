@@ -5,7 +5,7 @@ const fillDummy = i => {
     // To set radiobuttons we have to specify the name of the field
     // as the value or leave false.
     //
-    //Setting to false at least shows that the checkbox is affected
+    //Setting to true at least shows that the checkbox is affected
     // as every radio set is on last option.
     
     const value = ( i.type === "checkbox" )
